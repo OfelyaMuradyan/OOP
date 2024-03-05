@@ -19,4 +19,9 @@ class ElectricCar(ElectricVehicle,Car):
     def __init__(self):
         super().__init__(battery_capacity, make, model, number_of_wheels = 4)
 
-#super-ov miayn ElectricVehicle-i property-nern e jarangum, te Car-ic el karogh e jarangel? 
+#super-ov miayn ElectricVehicle-i property-nern e jarangum, te Car-ic el karogh e jarangel?
+
+car = Car("Toyota", "Camry")
+vehicle = Vehicle("Mercedes-Benz","S-class")
+
+el_vehicle = ElectricVehicle(75)
