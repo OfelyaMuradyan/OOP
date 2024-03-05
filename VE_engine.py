@@ -1,4 +1,5 @@
 class Vehicle:
+   
     count = 0
 
     def __init__(self, make, model, vehicle_count):
